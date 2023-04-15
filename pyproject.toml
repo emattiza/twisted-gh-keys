@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "twisted-gh-keys"
+version = "0.1.0"
+description = ""
+authors = ["Evan Mattiza <emattiza@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "twisted_gh_keys"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Twisted = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
